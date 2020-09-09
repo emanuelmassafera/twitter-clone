@@ -37,6 +37,10 @@ export const Avatar = styled.div`
 
     border: 3.75px solid var(--primary);
     background: var(--gray);
+    background-image: url("https://avatars1.githubusercontent.com/u/65625500?s=460&u=eb9e300de61698fc8531949a451ce2f0e9da46f9&v=4");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 50%;
 
     position: absolute;
