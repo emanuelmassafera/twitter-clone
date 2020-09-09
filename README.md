@@ -45,6 +45,7 @@ UI clone da página principal do Twitter, que inclui menu lateral esquerdo, feed
 <h1 align="center">
     <img alt="Gif UI Clone" src="./public/UIClone-TwitterResponsive.gif" width="650px" />
 </h1>
+
 ---
 
 ## Como executar o projeto <a name="-como-executar-o-projeto" style="text-decoration:none"></a>
