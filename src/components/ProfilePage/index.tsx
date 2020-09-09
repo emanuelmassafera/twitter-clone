@@ -11,6 +11,8 @@ import {
   Followage, 
 } from './styles';
 
+import Feed from '../Feed';
+
 const ProfilePage: React.FC = () => {
   return (
     <Container>
@@ -35,7 +37,7 @@ const ProfilePage: React.FC = () => {
           </li>
           <li>
             <CakeIcon />
-            Nascido(a) em 30 de Abril de 1999
+            Nascido(a) em 30 de abril de 1999
           </li>
         </ul>
 
@@ -48,6 +50,8 @@ const ProfilePage: React.FC = () => {
           </span>
         </Followage>
       </ProfileData>
+
+      <Feed />
     </Container>
   );
 };
