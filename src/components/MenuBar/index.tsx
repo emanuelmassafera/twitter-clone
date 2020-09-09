@@ -12,6 +12,10 @@ import {
   EmailIcon,
   FavoriteIcon,
   ProfileIcon,
+  Bottomside,
+  Avatar,
+  ProfileData,
+  ExitIcon
  } from './styles';
 
 const MenuBar: React.FC = () => {
@@ -20,7 +24,7 @@ const MenuBar: React.FC = () => {
       <Topside>
         <Logo />
 
-        <MenuButton>
+        <MenuButton className="active">
           <HomeIcon />
           <span>Página Inicial</span>
         </MenuButton>
@@ -40,7 +44,7 @@ const MenuBar: React.FC = () => {
           <span>Favoritados</span>
         </MenuButton>
 
-        <MenuButton className="active">
+        <MenuButton>
           <ProfileIcon />
           <span>Perfil</span>
         </MenuButton>
@@ -50,6 +54,17 @@ const MenuBar: React.FC = () => {
         </Button>
 
       </Topside>
+
+      <Bottomside>
+        <Avatar />
+
+        <ProfileData>
+          <strong>Emanuel Massafera</strong>
+          <span>@emanuelmassafera</span>
+        </ProfileData>
+
+        <ExitIcon />
+      </Bottomside>
     </Container>
   );
 };
